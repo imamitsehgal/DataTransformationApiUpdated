@@ -1,0 +1,234 @@
+{
+"Row1" : {
+	"riskSourceTradeId" :	{
+		"type"	:	"String",
+		"value"	:	"TradeID",
+		"nullable"	:	"true"
+	} ,
+	
+	"riskSourceHsbcTradeId"	:	{
+		"type"	:	"Integer",
+		"value"	:	"",
+		"nullable"	:	"true"
+	},
+	
+	"riskSourceType" :	{
+		"type"	:	"String",
+		"value"	:	"'TRADE'",
+		"nullable"	:	"false"
+	},
+	
+	"riskSourceTradeLedId"	: 	{
+		"type"	:	"String",
+		"value"	:	"if(AssetId == '0') { '' } else { AssetId };",
+		"nullable"	:	"true"
+	},
+	
+	"riskSourceVersion"	:	{
+		"type"	:	"Integer",
+		"value"	:	"GlobalTradeVersion",
+		"nullable"	:	"true"
+	},
+	
+	"measureValue"	:	{
+		"type"	:	"Double",
+		"value"	:	"Net",
+		"nullable"	:	"false"
+	},
+	
+	"measureBusinessDate"	:	{
+		"type"	:	"Integer",
+		"value"	:	"AsOfDate",
+		"nullable"	:	"false"
+	},
+	
+	"measureTypeName"	:	{
+		"type"	:	"String",
+		"value"	:	"'IRPV'",
+		"nullable"	:	"false"
+	},
+	
+	"measureTypeClass"	:	{
+		"type"	:	"String",
+		"value"	:	"'VALUATION'",
+		"nullable"	:	"false"
+	},
+	
+	"measureTypeSnapshotCode"	:	{
+		"type"	:	"String",
+		"value"	:	"'BOD'",
+		"nullable"	:	"true"
+	},
+	"measureTypeCalcFreq"	:	{
+		"type"	:	"String",
+		"value"	:	"",
+		"nullable"	:	"true"
+	},
+	"unitName"	:	{
+		"type"	:	"String",
+		"value"	:	"Currency",
+		"nullable"	:	"false"
+	},
+	
+	"unitAssetType"	:	{
+		"type"	:	"String",
+		"value"	:	"'CURRENCY'",
+		"nullable"	:	"false"
+	}
+},
+"Row2" : {
+	"riskSourceTradeId" :	{
+		"type"	:	"String",
+		"value"	:	"TradeID",
+		"nullable"	:	"true"
+	} ,
+	
+	"riskSourceHsbcTradeId"	:	{
+		"type"	:	"Integer",
+		"value"	:	"",
+		"nullable"	:	"true"
+	},
+	
+	"riskSourceType" :	{
+		"type"	:	"String",
+		"value"	:	"'TRADE'",
+		"nullable"	:	"false"
+	},
+	
+	"riskSourceTradeLedId"	: 	{
+		"type"	:	"String",
+		"value"	:	"if(AssetId == '0') { '' } else { AssetId };",
+		"nullable"	:	"true"
+	},
+	
+	"riskSourceVersion"	:	{
+		"type"	:	"Integer",
+		"value"	:	"GlobalTradeVersion",
+		"nullable"	:	"true"
+	},
+	
+	"measureValue"	:	{
+		"type"	:	"Double",
+		"value"	:	"TradeAccrual",
+		"nullable"	:	"false"
+	},
+	
+	"measureBusinessDate"	:	{
+		"type"	:	"Integer",
+		"value"	:	"AsOfDate",
+		"nullable"	:	"false"
+	},
+	
+	"measureTypeName"	:	{
+		"type"	:	"String",
+		"value"	:	"'ACCRUAL'",
+		"nullable"	:	"false"
+	},
+	
+	"measureTypeClass"	:	{
+		"type"	:	"String",
+		"value"	:	"'VALUATION'",
+		"nullable"	:	"false"
+	},
+	
+	"measureTypeSnapshotCode"	:	{
+		"type"	:	"String",
+		"value"	:	"'BOD'",
+		"nullable"	:	"true"
+	},
+	"measureTypeCalcFreq"	:	{
+		"type"	:	"String",
+		"value"	:	"",
+		"nullable"	:	"true"
+	},
+	"unitName"	:	{
+		"type"	:	"String",
+		"value"	:	"Currency",
+		"nullable"	:	"false"
+	},
+	
+	"unitAssetType"	:	{
+		"type"	:	"String",
+		"value"	:	"'CURRENCY'",
+		"nullable"	:	"false"
+	}
+},
+"Row3" : {
+	"riskSourceTradeId" :	{
+		"type"	:	"String",
+		"value"	:	"TradeID",
+		"nullable"	:	"true"
+	} ,
+	
+	"riskSourceHsbcTradeId"	:	{
+		"type"	:	"Integer",
+		"value"	:	"",
+		"nullable"	:	"true"
+	},
+	
+	"riskSourceType" :	{
+		"type"	:	"String",
+		"value"	:	"'TRADE'",
+		"nullable"	:	"false"
+	},
+	
+	"riskSourceTradeLedId"	: 	{
+		"type"	:	"String",
+		"value"	:	"if(AssetId == '0') { '' } else { AssetId };",
+		"nullable"	:	"true"
+	},
+	
+	"riskSourceVersion"	:	{
+		"type"	:	"Integer",
+		"value"	:	"GlobalTradeVersion",
+		"nullable"	:	"true"
+	},
+	
+	"measureValue"	:	{
+		"type"	:	"Double",
+		"value"	:	"ToDateCashFlow",
+		"nullable"	:	"false"
+	},
+	
+	"measureBusinessDate"	:	{
+		"type"	:	"Integer",
+		"value"	:	"AsOfDate",
+		"nullable"	:	"false"
+	},
+	
+	"measureTypeName"	:	{
+		"type"	:	"String",
+		"value"	:	"'CASHFLOW'",
+		"nullable"	:	"false"
+	},
+	
+	"measureTypeClass"	:	{
+		"type"	:	"String",
+		"value"	:	"'CASHFLOWS'",
+		"nullable"	:	"false"
+	},
+	"measureTypeSnapshotCode"	:	{
+		"type"	:	"String",
+		"value"	:	"'BOD'",
+		"nullable"	:	"true"
+	},
+	
+	"measureTypeCalcFreq"	:	{
+		"type"	:	"String",
+		"value"	:	"'LTD'",
+		"nullable"	:	"true"
+	},
+	
+	"unitName"	:	{
+		"type"	:	"String",
+		"value"	:	"Currency",
+		"nullable"	:	"false"
+	},
+	
+	"unitAssetType"	:	{
+		"type"	:	"String",
+		"value"	:	"'CURRENCY'",
+		"nullable"	:	"false"
+	}
+}
+}
